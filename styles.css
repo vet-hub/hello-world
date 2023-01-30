@@ -23,6 +23,7 @@
 
 body {
 	font-family: 'Roboto Slab', serif;
+	font-size: 1.35rem;
 	background-color: #f1faee;
 	color: #1d3557;
 	margin: 1rem;
@@ -107,6 +108,7 @@ header {
 
 .duck img{
 	border-radius:0.6rem;
+	margin: 1rem;
 }
 
 
