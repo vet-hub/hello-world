@@ -1,0 +1,171 @@
+@font-face {
+   font-family: Roboto;
+   src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+   font-family: Roboto;
+   src: url(./fonts/Roboto/Roboto-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+   font-family: 'Roboto Slab', serif;
+   src: url(./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color: #f1faee;
+	color: #1d3557;
+	margin: 1rem;
+}
+
+h1, h2 {
+	color: #457b9d;
+	padding: 2rem 0 1rem;
+}
+
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	/**/
+	background-color: #457b9d;
+	border-radius: 0.6rem;
+	/* border: 2px solid green; */
+}
+
+.nav-left {
+	display: flex;
+	align-items: center; 
+	/* border: 2px solid green; */
+}
+
+.nav-left img {
+	margin-left: 2rem;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.nav-right {
+	width: 80%;
+	/* border: 2px solid green; */
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/**/
+	height: 100%;
+	list-style-type: none;
+	/* border: 2px solid green; */
+}
+
+nav ul li {
+	/* border: 2px solid green; */
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+header {
+	/* border: 2px solid orange; */
+}
+
+
+
+
+#duck {
+	display: flex;
+	/**/
+	/* border: 2px solid yellow; */
+}
+.text {
+	/* border: 2px solid yellow; */
+}
+
+.text p {
+	/* border: 2px solid yellow; */
+	margin-bottom: 1rem;
+}
+
+.duck img{
+	border-radius:0.6rem;
+}
+
+
+
+
+
+#emergency {
+	/* border: 2px solid blue; */
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3px;
+	/**/
+	/* border: 2px solid blue; */
+	width: 80%;
+	margin: 0 auto;
+}
+
+#emergency a {
+	text-decoration: none;
+	color: #283618;
+}
+
+.grid-item {
+	display: flex;
+	justify-content: center;
+	/**/
+	/* border: 2px solid pink; */
+	/* height: 150px; */
+	padding: 1rem;
+	border-radius: 0.6rem;
+	background-color: #a8dadc;
+	text-decoration: none;
+}
+
+
+
+
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 1em;
+	/**/
+	/* border: 2px solid red; */
+}
+
+footer form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+footer form button {
+	padding: 0.5rem 1rem;
+	background-color: #a8dadc;
+	border: none;
+	border-radius: 0.2rem;
+}
